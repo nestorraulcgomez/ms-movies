@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.web.bind.annotation.*;
 
+@RestController
 public class MovieController {
     private List<Movie> movies = new ArrayList<>();
 
